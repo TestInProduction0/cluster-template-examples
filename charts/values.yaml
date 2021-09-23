@@ -34,11 +34,11 @@ rke:
 
 # enable monitoring
 monitoring:
-  enabled: false
+  enabled: true
   # specify which version to install, can be semver range. If version is empty or is semver range, it will pick up the latest version.
-  # version: ""
+    version: ""
   # specify cutsom values set
-  # values:
-  #   foo: bar
+    values:
+      foo: bar
 
 
